@@ -40,3 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### [0.0.0] - 2024-05-26
 ### Añadido
 - Creacion del proyecto
+
+### [0.0.1] - 2024-05-26
+### Añadido
+- Se creo el esqueleto mediante tres contenedores de la pagina principal
