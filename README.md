@@ -51,3 +51,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Funciona en su totalidad la busqueda por categorias 
 - Aun no muestra todos los productos filtrados en pantalla
 - Muestra los productos filtrados en consola
+
+### [0.0.3] - 2024-05-26
+### Añadido
+- Se implemento por completo la barra de categorias
+- Muestra completamente los productos filtrados en la pantalla y en su seccion 
+- Muestra imagenes de los productos
+- Muestra en que seccion esta actualmente
