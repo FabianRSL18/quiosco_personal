@@ -58,3 +58,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Muestra completamente los productos filtrados en la pantalla y en su seccion 
 - Muestra imagenes de los productos
 - Muestra en que seccion esta actualmente
+
+### [0.0.4] - 2024-05-27
+### Añadido
+- Muestra cuando el pedido esta vacio
+- El boton de agregar es funcional
+- Se ordenaron los componentes de cliente y servidor para evitar cargas inecesarias 
+- Se muestra en forma de tarjetas los productos pedidos
+- Se evitan los duplicados de productos en la seccion pedidos (tarjetas duplicadas)
+- Se agregaron funcionalidades a los botones de agregar productos + - y el boton eliminar x
+- Se calcula el total de una compra
+- Se agrega limites en los botones + y -
