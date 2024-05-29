@@ -69,3 +69,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Se agregaron funcionalidades a los botones de agregar productos + - y el boton eliminar x
 - Se calcula el total de una compra
 - Se agrega limites en los botones + y -
+
+### [0.0.5] - 2024-05-27
+### Añadido
+- Se creo el modelo de ordenes 
+- Se agrego el boton para poder confirmar pedido
+- Se agrego la funcion de agregar nombre al pedido
+- Se establecio valores de validacion al momento de ingresar un nombre
+- Se ingresa datos de ordenes en la base de datos
