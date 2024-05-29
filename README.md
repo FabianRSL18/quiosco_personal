@@ -77,3 +77,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Se agrego la funcion de agregar nombre al pedido
 - Se establecio valores de validacion al momento de ingresar un nombre
 - Se ingresa datos de ordenes en la base de datos
+
+### [0.1.0] - 2024-05-28
+### Añadido
+- Creacion de las primeras funciones de administrador 
+- Asignacion de un logo dinamico
+- Se creo la pagina principal de administrador junto con su navegacion
+- Se obtienen y muestran las ordenes pendientes
+- Se puede marcar las ordenes completas
