@@ -93,3 +93,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Se puede ver el total de paginas disponibles
 - Se añadio un buscador 
 - Se muestran resultados al momento de utilizar el buscador
+
+### [0.1.2] - 2024-05-30
+### Añadido
+- Se creo un formulario para crear productos 
+- Se asigno una validacion para la creacion de productos 
+- Se permite subir imagenes 
+- Se guardan los nuevos productos en la base de datos
