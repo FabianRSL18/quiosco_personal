@@ -85,3 +85,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Se creo la pagina principal de administrador junto con su navegacion
 - Se obtienen y muestran las ordenes pendientes
 - Se puede marcar las ordenes completas
+
+### [0.1.1] - 2024-05-29
+### Añadido
+- Se listo los productos 
+- Se creo un paginador 
+- Se puede ver el total de paginas disponibles
+- Se añadio un buscador 
+- Se muestran resultados al momento de utilizar el buscador
