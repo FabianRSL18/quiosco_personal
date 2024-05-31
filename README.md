@@ -111,3 +111,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Añadido
 - Creacion de un Endpoint para api
 - Configuracion de swr
+- Muestra las ordenes listas

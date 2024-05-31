@@ -1,4 +1,4 @@
-import { redirect } from 'next/navigation'
+import { redirect } from 'next/navigation'
 import ProductsPagination from "@/components/products/ProductsPagination";
 import ProductTable from "@/components/products/ProductsTable";
 import Heading from "@/components/ui/Heading";
@@ -10,39 +10,35 @@ async function productCount() {
     return await prisma.product.count()
 }
 
-async function getProducts(page: number, pageSize: number) {
-
+    async function getProducts(page: number, pageSize: number) {
     const skip = (page - 1) * pageSize
-
     const products = await prisma.product.findMany({
         take: pageSize,
         skip,
         include: {
-            category: true
+        category: true
         }
     })
     return products
 }
 
-export type ProductsWithCategory = Awaited<ReturnType<typeof getProducts>>
+    export type ProductsWithCategory = Awaited<ReturnType<typeof getProducts>>
 
-export default async function Productspage({searchParams} : { searchParams: {page: string}}) {
+    export default async function ProductsPage({searchParams} : { searchParams: {page: string}}) {
 
     const page = +searchParams.page || 1
     const pageSize = 10
-
     if(page < 0) redirect('/admin/products')
-
-    const productsData = await getProducts(page, pageSize)
-    const totalProductosData = productCount()
-    const [ products, totalProducts] = await Promise.all([productsData, totalProductosData])
+    const productsData = getProducts(page, pageSize)
+    const totalProductsData = productCount()
+    const [ products, totalProducts] = await Promise.all([productsData, totalProductsData])
     const totalPages = Math.ceil(totalProducts / pageSize)
-
     if(page > totalPages) redirect('/admin/products')
 
-    return(
+
+    return (
         <>
-            <Heading>Administrar productos</Heading>
+            <Heading>Administrar Productos</Heading>
 
             <div className='flex flex-col lg:flex-row lg:justify-between gap-5'>
                 <Link
@@ -53,11 +49,11 @@ export default async function Productspage({searchParams} : { searchParams: {pag
                 <ProductSearchForm />
             </div>
 
-            <ProductTable 
+            <ProductTable
                 products={products}
             />
 
-            <ProductsPagination
+            <ProductsPagination 
                 page={page}
                 totalPages={totalPages}
             />
