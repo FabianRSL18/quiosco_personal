@@ -100,3 +100,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Se asigno una validacion para la creacion de productos 
 - Se permite subir imagenes 
 - Se guardan los nuevos productos en la base de datos
+
+### [0.1.3] - 2024-05-30
+### Añadido
+- Se agrego la funcion para obtener un producto para editar
+- Validacion de imagenes
+- Guardado de cambios
