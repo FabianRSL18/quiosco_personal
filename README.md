@@ -107,7 +107,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Validacion de imagenes
 - Guardado de cambios
 
-### [0.1.3] - 2024-05-30
+### [0.1.4] - 2024-05-30
 ### Añadido
 - Creacion de un Endpoint para api
 - Configuracion de swr
